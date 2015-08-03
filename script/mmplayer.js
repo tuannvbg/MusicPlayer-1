@@ -10,7 +10,7 @@ window.onload = function() {
 }
 var MmPlayer = function() {
     this.VERSION = '0.1.0';
-    this.APP_NAME = 'Meow meow Player';
+    this.APP_NAME = 'music Player';
     this.title = this.APP_NAME, //the app title on the top of the page, will upgrade when songs playing
     this.audioContext = null;
     this.source = null;
@@ -557,7 +557,7 @@ MmPlayer.prototype = {
     },
     drawMarkCat: function() {
         var that = this,
-            imgPath = 'resource/img/mmplayer_mosaik.png',
+            imgPath = 'resource/img/mm_mos.png',
             img = new Image();
         img.onload = function() {
             var c = that.canvas,
