@@ -1,0 +1,8 @@
+title: Musicplayer
+description: Visualization Web MP3
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-time-machine
+
+gems:
+  - jekyll-mentions
